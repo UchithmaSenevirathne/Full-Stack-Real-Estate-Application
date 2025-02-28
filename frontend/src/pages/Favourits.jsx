@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Property = () => {
+const Favourits = () => {
     return (
         <div>
-            Property
+            Favourits
         </div>
     );
 };
 
-export default Property;
+export default Favourits;
