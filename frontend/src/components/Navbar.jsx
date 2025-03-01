@@ -21,7 +21,7 @@ const Navbar = ({containerStyles}) => {
                 <MdPermContactCalendar/>
                 <div>Contact</div>
             </NavLink>
-            <NavLink to={"/"}
+            <NavLink to={"/addProperty"}
                      className={"flex items-center justify-center gap-x-1 rounded-full px-2 py-1 cursor-pointer"}>
                 <MdAddHome/>
                 <div>Add Property</div>
