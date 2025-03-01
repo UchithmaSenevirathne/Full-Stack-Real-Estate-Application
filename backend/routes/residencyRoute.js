@@ -1,8 +1,10 @@
 import express from "express";
-import {createResidency} from "../controllers/resdCtrl.js";
+import {createResidency, getAllResidencies, getResidency} from "../controllers/resdCtrl.js";
 
 const router = express.Router();
 
 router.post('/create', createResidency)
+router.get('/allresd', getAllResidencies)
+router.get("/:id", getResidency)
 
 export {router as residencyRoute}
